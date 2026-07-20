@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EditKaro.in</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="assets\images\favicon.JPG">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<header>
+  <div class="logo">EDITKARO<span>.IN</span></div>
+  <nav class="nav-links">
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+  <a href="#cta" class="nav-cta magnetic">Book a Call</a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+
+    <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline>
+
+        <source src="assets/videos/hero.mp4" type="video/mp4">
+
+    </video>
+
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+    <div class="scan"></div>
+
+</div>
+
+  <div class="chip chip-1"><span class="dot"></span> +14,208 Likes</div>
+  <div class="chip chip-2"><span class="dot"></span> 2.3M Views</div>
+  <div class="chip chip-3"><span class="dot"></span> 891 Comments</div>
+  <div class="chip chip-4"><span class="dot"></span> New Follower +1</div>
+
+  <div class="hero-inner">
+    <div class="eyebrow hero-eyebrow">Social Media Marketing &amp; Video Editing</div>
+    <h1 class="display" id="heroTitle">Attention<br>is Earned.</h1>
+    <p class="hero-sub">Every frame is designed to keep your audience watching longer.</p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary magnetic">See the Work</a>
+      <a href="#cta" class="btn btn-outline magnetic">Start a Project</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll"><div class="line"></div>Scroll</div>
+</section>
+
+<!-- MARQUEE -->
+<section class="marquee-section">
+  <div class="marquee-track" id="marqueeTrack">
+    <div class="marquee-item">NOVA COSMETICS</div>
+    <div class="marquee-item">FUELBOX</div>
+    <div class="marquee-item">URBAN THREADS</div>
+    <div class="marquee-item">SHUTTLE FOODS</div>
+    <div class="marquee-item">GRIDIRON GG</div>
+    <div class="marquee-item">PIXEL PANTRY</div>
+    <div class="marquee-item">LOOPWEAR</div>
+    <div class="marquee-item">HAZE STUDIOS</div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats wrap">
+  <div class="stats-grid">
+    <div class="stat"><div class="stat-num" data-count="120">0<span class="plus">M+</span></div><div class="stat-label">Views Generated</div></div>
+    <div class="stat"><div class="stat-num" data-count="250">0<span class="plus">+</span></div><div class="stat-label">Brands Scaled</div></div>
+    <div class="stat"><div class="stat-num" data-count="1.8">0<span class="plus">B+</span></div><div class="stat-label">Watch Time</div></div>
+    <div class="stat"><div class="stat-num" data-count="98">0<span class="plus">%</span></div><div class="stat-label">Client Satisfaction</div></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services wrap" id="services">
+  <div class="section-head">
+    <h2 class="section-title display reveal">Everything a brand needs to <span style="color:var(--green)">go viral.</span></h2>
+    <p class="section-desc reveal">From the first cut to the final caption — one team, one obsession: performance.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal"><div><div class="service-num">01</div><div class="service-name">Video Editing</div></div><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M5 3l14 9-14 9V3z"/></svg></div></div>
+    <div class="service-card reveal"><div><div class="service-num">02</div><div class="service-name">Instagram Growth</div></div><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></div></div>
+    <div class="service-card reveal"><div><div class="service-num">03</div><div class="service-name">Reels Strategy</div></div><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg></div></div>
+    <div class="service-card reveal"><div><div class="service-num">04</div><div class="service-name">YouTube Editing</div></div><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="2" y="6" width="20" height="12" rx="4"/><path d="M10 9l5 3-5 3V9z" fill="currentColor" stroke="none"/></svg></div></div>
+    <div class="service-card reveal"><div><div class="service-num">05</div><div class="service-name">Performance Ads</div></div><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M3 17l6-6 4 4 8-8"/></svg></div></div>
+    <div class="service-card reveal"><div><div class="service-num">06</div><div class="service-name">Motion Graphics</div></div><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div></div>
+    <div class="service-card reveal"><div><div class="service-num">07</div><div class="service-name">Color Grading</div></div><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="8" cy="8" r="5"/><circle cx="15" cy="15" r="5"/></svg></div></div>
+    <div class="service-card reveal"><div><div class="service-num">08</div><div class="service-name">Brand Content</div></div><div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M4 20V10l8-6 8 6v10"/><path d="M9 20v-6h6v6"/></svg></div></div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio wrap" id="work">
+  <div class="section-head">
+    <h2 class="section-title display reveal">Selected <span style="color:var(--green)">Work.</span></h2>
+    <p class="section-desc reveal">A slice of what leaves the studio. Every frame graded, every cut intentional.</p>
+  </div>
+  <div class="filters" id="filters">
+    <button class="pill active" data-filter="all">All</button>
+    <button class="pill" data-filter="short">Short Form</button>
+    <button class="pill" data-filter="reels">Reels</button>
+    <button class="pill" data-filter="gaming">Gaming</button>
+    <button class="pill" data-filter="football">Football</button>
+    <button class="pill" data-filter="anime">Anime</button>
+    <button class="pill" data-filter="ads">Ads</button>
+    <button class="pill" data-filter="ecom">eCommerce</button>
+    <button class="pill" data-filter="grading">Color Grading</button>
+    <button class="pill" data-filter="youtube">YouTube</button>
+  </div>
+  <div class="grid-portfolio" id="portfolioGrid"></div>
+</section>
+
+<!-- PROCESS -->
+<section class="process wrap" id="process">
+  <div class="section-head">
+    <h2 class="section-title display reveal">How we <span style="color:var(--green)">work.</span></h2>
+    <p class="section-desc reveal">From idea to final delivery—in six focused steps.</p>
+  </div>
+  <div class="timeline">
+    <div class="timeline-fill" id="timelineFill"></div>
+    <div class="step"><div class="step-index">01</div><div class="step-name display">Discover</div><div class="step-desc">Understanding your brand, audience and goals.</div></div>
+    <div class="step"><div class="step-index">02</div><div class="step-name display">Strategy</div><div class="step-desc">The right format, platform and message.</div></div>
+    <div class="step"><div class="step-index">03</div><div class="step-name display">Production</div><div class="step-desc">Shoots, scripts, and raw footage — Capturing quality footage with purpose..</div></div>
+    <div class="step"><div class="step-index">04</div><div class="step-name display">Editing</div><div class="step-desc">Pacing, sound design, and story structure tuned frame by frame for retention.</div></div>
+    <div class="step"><div class="step-index">05</div><div class="step-name display">Optimization</div><div class="step-desc">Thumbnails, captions, and hooks A/B tested against real platform performance data.</div></div>
+    <div class="step"><div class="step-index">06</div><div class="step-name display">Delivery</div><div class="step-desc">Published, tracked, and reported — with the next cycle already in motion.</div></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials wrap">
+  <div class="section-head">
+    <h2 class="section-title display reveal">Clients don't <span style="color:var(--green)">leave.</span></h2>
+    <p class="section-desc reveal">A few words from brands whose numbers we've moved.</p>
+  </div>
+  <div class="t-track">
+    <div class="t-card"><div class="t-quote">"</div><p class="t-text">Our watch time tripled in six weeks. EDITKARO didn't just edit our videos, they rebuilt how we think about content.</p><div class="t-person"><div class="t-avatar"></div><div><div class="t-name">Aarav Mehta</div><div class="t-role">Founder, Nova Cosmetics</div></div></div></div>
+    <div class="t-card"><div class="t-quote">"</div><p class="t-text">We went from posting randomly to a system that actually compounds. Every reel now has a job to do.</p><div class="t-person"><div class="t-avatar"></div><div><div class="t-name">Priya Shah</div><div class="t-role">Marketing Lead, Fuelbox</div></div></div></div>
+    <div class="t-card"><div class="t-quote">"</div><p class="t-text">The color grading alone made our product look like a completely different brand. Worth every rupee.</p><div class="t-person"><div class="t-avatar"></div><div><div class="t-name">Rohan Kapoor</div><div class="t-role">CEO, Urban Threads</div></div></div></div>
+    <div class="t-card"><div class="t-quote">"</div><p class="t-text">Fast, sharp, and obsessed with the numbers. Our best-performing quarter came right after we signed on.</p><div class="t-person"><div class="t-avatar"></div><div><div class="t-name">Simran Kaur</div><div class="t-role">Growth, Shuttle Foods</div></div></div></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about wrap" id="about">
+  <div class="about-grid">
+    <div class="about-visual reveal">
+
+      <video
+          class="about-video"
+          autoplay
+          muted
+          loop
+          playsinline>
+
+          <source src="assets/videos/about.mp4" type="video/mp4">
+
+      </video>
+
+    </div>
+    <div class="about-copy">
+      <div class="eyebrow" style="margin-bottom:18px;">Who We Are</div>
+      <h2 class="section-title display reveal">Built to Make You Seen.</h2>
+      <p class="reveal">EditKaro.in started with one belief: most brands lose attention in the first second, not because their product is weak, but because their content is generic.</p>
+      <p class="reveal">We're a team of editors, strategists, and platform-obsessed nerds who treat every cut like it's competing against the entire internet — because it is.</p>
+      <div class="about-stats">
+        <div><span>100+</span><p style="color:var(--gray);font-size:12px;">Projects Delivered</p></div>
+        <div><span>20+</span><p style="color:var(--gray);font-size:12px;">Brands Trusted</p></div>
+        <div><span>24/7</span><p style="color:var(--gray);font-size:12px;">Creative Support</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="cta">
+  <div class="eyebrow" style="justify-content:center;margin-bottom:28px;">Let's Talk</div>
+  <h2 class="display reveal">Ready to Make Your Brand <span class="accent">Impossible to Ignore?</span></h2>
+  <div class="cta-actions">
+    <a href="mailto:hello@editkaro.in" class="btn btn-primary glow-btn magnetic">Start Your Project</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="wrap">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="logo">EditKaro<span>.in</span></div>
+      <p>A social media marketing &amp; video editing agency for brands that refuse to be scrolled past.</p>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@editkaro.in">hello@editkaro.in</a>
+        <a href="tel:+911234567890">+91 12345 67890</a>
+        <a href="#">Delhi NCR, India</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>&copy; 2026 EditKaro.in — All rights reserved.</div>
+    <div>Made with obsession, frame by frame.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
