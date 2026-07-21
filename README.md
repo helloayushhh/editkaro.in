@@ -34,7 +34,7 @@ open `index.html` in your browser.
 
 ## live
 
-coming soon.
+https://ek-aps.vercel.app/
 
 ---
 
